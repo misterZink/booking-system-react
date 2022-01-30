@@ -33,7 +33,7 @@ export default function RegisterForm() {
     }
 
     return (
-        <div className="register-main-div">
+        <div className="register-main-div mb-lg-5">
             <form onSubmit={handleSubmit(submitForm)} className="register-form"
                 action="../../post" method="post">
                 <h1>Registrera</h1>
