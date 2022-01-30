@@ -1,7 +1,6 @@
 import React from "react";
-import '../../src/stylings/registerForm.css';
+
 import axios from "axios";
-import { useState } from "react";
 import * as yup from "yup";
 import { yupResolver } from '@hookform/resolvers/yup';
 import { useForm } from "react-hook-form";

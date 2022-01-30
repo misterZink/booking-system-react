@@ -1,12 +1,5 @@
 import React from "react";
-import '../../src/stylings/adminPage.css';
-import { useState } from "react";
-import TimePicker from 'rc-time-picker';
 import 'rc-time-picker/assets/index.css';
-import * as yup from "yup";
-import { yupResolver } from '@hookform/resolvers/yup';
-import { useForm } from "react-hook-form";
-import axios from "axios";
 import RegisterForm from "../components/registerForm";
 import BookCleaning from "../components/bookCleaning";
 import DeleteForm from "../components/DeleteForm";

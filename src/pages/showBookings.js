@@ -1,11 +1,6 @@
 import React from "react";
-import '../stylings/showBookings.css';
 import { useState } from "react";
-import TimePicker from 'rc-time-picker';
 import 'rc-time-picker/assets/index.css';
-import * as yup from "yup";
-import { yupResolver } from '@hookform/resolvers/yup';
-import { useForm } from "react-hook-form";
 import axios from "axios";
 
 export default function ShowBookings() {
